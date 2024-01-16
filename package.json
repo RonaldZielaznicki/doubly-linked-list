@@ -1,6 +1,6 @@
 {
   "name": "doubly-linked-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A doubly linked list with an array-like api",
   "license": "MIT",
   "type": "module",
