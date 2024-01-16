@@ -151,7 +151,7 @@ export class DoublyLinkedList {
 
     while (cursor) {
 
-      yield cursor.value;
+      yield cursor;
       cursor = cursor.next;
 
     }

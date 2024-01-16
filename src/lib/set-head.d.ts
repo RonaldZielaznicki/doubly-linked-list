@@ -1,3 +1,3 @@
-export function setHead(list: DoublyLinkedList<T>, node: DoublyLinkedNode<T> | null): void;
+export function setHead<T>(list: DoublyLinkedList<T>, node: DoublyLinkedNode<T> | null): void;
 import { DoublyLinkedList } from '../doubly-linked-list.js';
 import { DoublyLinkedNode } from '../doubly-linked-node.js';

@@ -19,7 +19,7 @@ export class DoublyLinkedList<T> {
      * @returns {DoublyLinkedList<T> | IteratorExpectedTypeError}
      */
     concat(...iterables: Iterable<T>[]): DoublyLinkedList<T> | IteratorExpectedTypeError;
-    keys(): Generator<T | null, void, unknown>;
+    keys(): Generator<DoublyLinkedNode<T>, void, unknown>;
     /**
      * @returns {T | undefined}
      */
